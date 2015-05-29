@@ -1,0 +1,78 @@
+.nav {
+	padding-top: 6px;
+	border-bottom: 2px solid black;
+}
+
+.nav li:hover{
+	background-color: #B86E8C;
+	color:white;
+	border: 1px solid white;
+}
+.nav a:hover{
+	color:white;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav li {
+  display: inline;
+}
+
+#carousel-example-generic{
+  border-bottom: 2px solid black;
+  background-color: white;
+}
+.carousel-inner > .item > a > img {
+    margin: 0 auto;
+}
+
+.carousel-caption a > h1{
+  text-align: center;
+  font-size: 8em;
+  text-decoration: none;
+  color:#B86E8C;
+}
+
+.carousel-caption a:hover{
+  text-decoration: none;
+  color:#B86E8C;
+}
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    background-color: #E0E0EA;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+    margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+    height: 142px; 
+}
+.site-footer {
+  background: #B86E8C;
+}
+
+.row{
+  border-bottom: 2px solid black;
+}
+
+.col-md-4{
+  background-color: white;
+}
